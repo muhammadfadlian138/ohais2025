@@ -87,40 +87,113 @@
           transform: translate(50px, 0);
         }
       }
+
+      body {
+        background: #0173BC;
+        background: linear-gradient(0deg,rgba(1, 115, 188, 1) 0%, rgba(62, 66, 121, 1) 50%, rgba(60, 47, 82, 1) 100%);
+        /*scrollbar-width: none;*/
+        overflow-x: hidden;
+      }
+
+      p {
+        margin-left : 10px;
+        font-family: "Roboto";
+      }
+
+      h2 {
+        color: #FFDE59;
+        font-family: "Impact";
+        margin-left: 10px;
+      }
+
+      footer {
+        background-color: #FFDE59;
+      }
+
+      li {
+        color:#fff;
+        margin-bottom: 2px;
+      }
+
+      ul {
+        margin-bottom: 20px;
+      }
+
+      a {
+        color:#00BCFF;
+      }
+
+      button {
+        background-color: #008057;
+        border: solid;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OH AIS 2025</title>
   </head>
   <body bgcolor="#0173bc">
-    <img src="v3.png" width="100%">
+    <img src="v3.png" width="100%" style="margin-left:50px;">
     <br/>
-    <h2>Special Performance by the students of AIS</h2>
-    <h2>Seminar "Wawasan Kedirgantaraan"</h2>
+    <p style="color:#fff">
+      November 15th, 2025
+      <br/>at Ar-Rahman Islamic School
+    </p>
+    <h2><img src="https://icons.iconarchive.com/icons/yohproject/cute/128/star-icon.png"  height="24"> Special Performance by the students of AIS</h2>
+    <h2><img src="https://icons.iconarchive.com/icons/martz90/circle-addon2/128/plane-flight-icon.png" width="24"> Seminar "Wawasan Kedirgantaraan"</h2>
     <!-- <ul> -->
 <!-- <li>Wawasan Kedirgantaraan dari Asisten Teritorial TNI AU (Pilot, Pengenalan alat kedirgantaraan, Paramotor, paralayang, Drone)</li> -->
 <!-- <li>Bazaar</li> -->
     <!-- </ul> -->
-    <h2>Events and Competition</h2>
-    <pre>
-Bagi anak Pra-sekolah :
-  <a href="#"><b>Playdate</b></a> | <a href="#">Registration form</a>
-  <a href="#"><b>Trial Class</b></a> | <a href="#">Registration form</a>
+    <h2><img src="https://icons.iconarchive.com/icons/google/noto-emoji-activities/128/52726-sports-medal-icon.png" width="24"> Events and Competitions</h2>
+    <p style="color:#aaa">Tap to see the details; zoom if needed <i>(ketuk untuk melihat lebih rinci; perbesar jika perlu)</i></p>
+    <ul>
+<li><img src="data:image/png;base64,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" alt="christmas-kid-2" width="16"><img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-flat/128/School-Flat-icon.png" height="16"><b> Pre-school students, Kindergarten students, and Grade 1-2 students <i>(bagi anak pra-sekolah, murid TK / PAUD, serta murid kelas 1-2)</i>:</b></li>
+  <ul>
+    <li><a target="_blank" href="https://drive.google.com/file/d/1j3unmZhDz5bRCbpeTM6V1WByPJWwd_ko/view?usp=sharing" style="color:yellow">Playdate</a><!--  | <a href="#">Registration form</a>--></li>
+    <li><!-- <a target="_blank" href="#" style="color:yellow"> -->Trial Class<!-- </a> --><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRqxe0IHUoGCHVP5wkH3qugJC2G9o1g0kQTc_8YdfWPvOE8nBIsSbJI2BtY_VmauA/pub" style="color:yellow">Coloring</a><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vReZJRwtR_1632E8xwrBeycHGxghRImbZAlcAkrHPyHTFzACk2Ukk-xCecPwMpJ0Q/pub" style="color:yellow"><i>Ball Relay</i></a><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vQsnasQSy1KTkz-0r06mvaIWdkVPPCStoz3_h-wtPuPHXjbVdsDLuSyuynHwrjbdA/pub" style="color:yellow"><i>Congregational Prayer</i></a><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vQ8t8WngpofqZv_dVsM0XzS8ayfX8dWmVK2BBtvwaR3Q7fXm8kurblHpuNmuYK_Ww/pub" style="color:yellow"><i>Blocks Stacking</i></a><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="#" style="color:yellow"><i>Literacy and Numeracy</i></a><!--  | <a href="#">Registration form</a> --></li>
+  </ul>
 
-Bagi murid TK / Paud :
-  <a href="#"><b>Coloring</b></a> | <a href="#">Registration form</a>
-  <a href="#"><i><b>Estafet Bola</b></i></a> | <a href="#">Registration form</a>
-  <a href="#"><i><b>Shalat Berjamaah</b></i></a> | <a href="#">Registration form</a>
-  <a href="#"><i><b>Calistung</b></i></a> | <a href="#">Registration form</a>
+<!-- <li><img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-flat/128/School-Flat-icon.png" height="16"><b> Kindergarten students <i>(bagi murid TK / PAUD)</b></i> :</li>
+  <ul>
+  </ul> -->
 
-Bagi murid Sekolah Dasar kelas 5-6 :
-  <a href="#"><i><b>Cerdas Cermat Islam</b></i></a> | <a href="#">Registration form</a>
-  <a href="#"><i><b>Solo Vokal</b></i></a> | <a href="#">Registration form</a>
-  <a href="#"><b>Story Telling</b></a> | <a href="#">Registration form</a>
-    </pre>
+<li><img src="https://icons.iconarchive.com/icons/google/noto-emoji-people-face/128/10131-child-medium-skin-tone-icon.png" height="16">
+<b>Grade 5-6 students <i>(bagi murid Sekolah Dasar kelas 5-6) :</i></b></li>
+  <ul>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRRa_2C1lbO4eDWtOtS91dJRUoT1FjyKO1z0leF8Guq5L2CBzyT6KIBj2xnXsHWpg/pub" style="color:yellow"><i>Islamic Quiz Competition</i></a></li><!--  | <a href="#">Registration form</a> -->
+    <li><!-- <a target="_blank" href="#" style="color:yellow"><i> -->Academic Competency Test</i><!-- </a> --></li><!--  | <a href="#">Registration form</a> -->
+    <li><a target="_blank" href="https://drive.google.com/file/d/1MGhaCYcsVTGaeE-THERo7iLdPWFTgmd-/view?usp=sharing" style="color:yellow"><i>Singing</i></a><!--  | <a href="#">Registration form</a> --></li>
+    <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRmrnFkBOfcSrM06GTr4KP4gK7QGNCZoq2eE9zWUoL6Uqu1hgoXC4momVoE9ERrzA/pub" style="color:yellow">Story Telling</a><!--  | <a href="#">Registration form</a> --></li>
+  </ul>
+    <!-- </pre> -->
     <!-- <div class="simple-shape one"></div>
     <div class="simple-shape two"></div>
     <div class="simple-shape three"></div>
     <div class="simple-shape four"></div> -->
-    <h2>Booth Science</h2>
-    <h2>Bazaar</h2>
+  </ul>
+  <button onclick="window.open('https://forms.gle/wkxANLNqZiPUecZHA', '_blank')">Register / Daftar</button>
+    <h2><img src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/128/Science-icon.png" height="32"> Science Booth</h2>
+    <h2><img src="https://icons.iconarchive.com/icons/google/noto-emoji-travel-places/128/42528-circus-tent-icon.png" width="32"> Bazaar</h2>
   </body>
-  <footer>The end the end</footer>
+  <footer style="text-align: center;">
+    Contact person <i>(narahubung) </i>:
+    <br/>
+    <img src="https://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/Whatsapp-icon.png" height="12"><a target="_blank" style="color:#3C3054" href="https://wa.me/6282267566398">082267566398</a>
+    &ensp;
+    <img src="https://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/Whatsapp-icon.png" height="12"><a target="_blank" style="color:#3C3054" href="https://wa.me/6285711384318">085711384318</a>
+    <!-- &ensp; --><br/>
+    <img src="https://icons.iconarchive.com/icons/tinylab/android-lollipop-apps/128/Whatsapp-icon.png" height="12"><a target="_blank" style="color:#3C3054" href="https://wa.me/6285693631359">085693631359</a>
+  </footer>
 </html>
